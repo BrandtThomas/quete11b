@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link id="linkCss" rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="switchModeButton" id="loadCheckBox">
+                <label class="switch">
+                    <input type="checkbox" id="toggler" toggle="change">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <form action="" class="searchForm" id="form">
+                <img src="img/searchDark.png" class="imgSearch" id="imgSearch" height="30" alt="">
+                <input type="search" class="inputSearch" placeholder="Recherche">
+            </form>
+        </nav>
+    </header>
+    <section class="block1 container">
+        <div class="row justify-content-center" id="cardContainer">
+    
+        </div>
+    </section>
+
+    <script src="js/darkMode/darkMode.js"></script>
+    <script src="js/class/Card.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
